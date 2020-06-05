@@ -1,0 +1,21 @@
+{
+  "name": "photosort",
+  "version": "1.0.0",
+  "description": "Sort image files into new folders based on exif data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "keywords": [
+    "photo",
+    "sort",
+    "image",
+    "filesystem"
+  ],
+  "author": "Mika Mulperi Lakanen",
+  "license": "ISC",
+  "dependencies": {
+    "exif-parser": "^0.1.12"
+  }
+}
