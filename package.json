@@ -1,5 +1,5 @@
 {
-  "name": "photosort",
+  "name": "@mulperi/photosort",
   "version": "1.0.0",
   "description": "Sort image files into new folders based on exif data",
   "main": "app.js",
