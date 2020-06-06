@@ -1,8 +1,11 @@
 {
   "name": "@mulperi/photosort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sort image files into new folders based on exif data",
-  "main": "app.js",
+  "bin": {
+    "photosort": "./bin/photosort.js"
+  },
+  "main": "./lib/photosort",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app"

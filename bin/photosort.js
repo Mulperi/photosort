@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fsPromises = require("fs").promises;
 const exifParser = require("exif-parser");
 const workingDir = process.cwd();
