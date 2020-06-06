@@ -1,6 +1,6 @@
 {
   "name": "@mulperi/photosort",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sort image files into new folders based on exif data",
   "bin": {
     "photosort": "./bin/photosort.js"
