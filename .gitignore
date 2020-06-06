@@ -1,1 +1,26 @@
+# System-specific files
+.DS_Store
+Thumbs.db
+*.log
+
+# Generated files
+dist/
+build/
+
+# Cached files
+.eslintcache
+
+# Local package management cache
 node_modules/
+
+# Ignore Yarn lockfile because we you npm
+yarn.lock
+
+# Editor-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Allow VS Code settings file
+!.vscode/settings.json
