@@ -1,14 +1,17 @@
 {
   "name": "@mulperi/photosort",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Sort image files into new folders based on exif data",
   "bin": {
     "photosort": "./bin/photosort.js"
   },
+  "engines": {
+    "node": ">=10.21.0"
+  },
   "main": "./lib/photosort",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "start": "node ./bin/photosort"
   },
   "keywords": [
     "photo",
