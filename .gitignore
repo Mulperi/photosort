@@ -13,7 +13,7 @@ build/
 # Local package management cache
 node_modules/
 
-# Ignore Yarn lockfile because we you npm
+# Ignore Yarn lockfile because we use npm
 yarn.lock
 
 # Editor-specific files
