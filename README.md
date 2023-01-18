@@ -2,12 +2,6 @@
 
 Sort photos into folders by date, based on EXIF-metadata.
 
-## Installation
-
-```sh
-npm i -g @mulperi/photosort
-```
-
 ## Running
 
 Run photosort inside the directory where the image files are located.
