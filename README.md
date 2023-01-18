@@ -7,7 +7,7 @@ Sort photos into folders by date, based on EXIF-metadata.
 Run photosort inside the directory where the image files are located.
 
 ```sh
-npx photosort
+npx @mulperi/photosort
 ```
 
 - New directories will be created (e.g. **`2020-06-05`**) based on the date information of image files.
